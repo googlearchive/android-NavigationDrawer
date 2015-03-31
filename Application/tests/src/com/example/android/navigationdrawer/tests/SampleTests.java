@@ -1,22 +1,4 @@
 /*
-* Copyright 2013 The Android Open Source Project
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*     http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/
-
-
-
-/*
 * Copyright (C) 2013 The Android Open Source Project
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
@@ -40,13 +22,12 @@ import android.test.ActivityInstrumentationTestCase2;
 /**
 * Tests for NavigationDrawer sample.
 */
-public class SampleTests extends ActivityInstrumentationTestCase2<MainActivity> {
+public class SampleTests extends ActivityInstrumentationTestCase2<NavigationDrawerActivity> {
 
-    private MainActivity mTestActivity;
-    private NavigationDrawerFragment mTestFragment;
+    private NavigationDrawerActivity mTestActivity;
 
     public SampleTests() {
-        super(MainActivity.class);
+        super(NavigationDrawerActivity.class);
     }
 
     @Override
@@ -58,8 +39,6 @@ public class SampleTests extends ActivityInstrumentationTestCase2<MainActivity> 
         // flags = {@link Intent#FLAG_ACTIVITY_NEW_TASK}
         // All other fields are null or empty.
         mTestActivity = getActivity();
-        mTestFragment = (NavigationDrawerFragment)
-            mTestActivity.getSupportFragmentManager().getFragments().get(1);
     }
 
     /**
@@ -69,7 +48,6 @@ public class SampleTests extends ActivityInstrumentationTestCase2<MainActivity> 
         //Try to add a message to add context to your assertions. These messages will be shown if
         //a tests fails and make it easy to understand why a test failed
         assertNotNull("mTestActivity is null", mTestActivity);
-        assertNotNull("mTestFragment is null", mTestFragment);
     }
 
     /**
