@@ -32,7 +32,7 @@ List<String> dirs = [
 
 android {
     compileSdkVersion 21
-    buildToolsVersion "23.0.1"
+    buildToolsVersion "23.0.2"
 
     defaultConfig {
         minSdkVersion 21
@@ -57,18 +57,3 @@ android {
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
