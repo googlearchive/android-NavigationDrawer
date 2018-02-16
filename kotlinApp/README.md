@@ -1,6 +1,6 @@
 
-Android Navigation Drawer Sample
-===================================
+Android Navigation Drawer Sample (Kotlin)
+=========================================
 
 This example illustrates a common usage of the DrawerLayout widget in the Android
 support library.
@@ -9,7 +9,6 @@ Pre-requisites
 --------------
 
 - Android SDK 27
-- Android Build Tools v27.0.2
 - Android Support Repository
 
 Getting Started
@@ -25,7 +24,7 @@ Support
 - Stack Overflow: http://stackoverflow.com/questions/tagged/android
 
 If you've found an error in this sample, please file an issue:
-https://github.com/googlesamples/android-Navigation Drawer
+https://github.com/googlesamples/android-NavigationDrawer
 
 Patches are encouraged, and may be submitted by forking this project and
 submitting a pull request through GitHub. Please see CONTRIBUTING.md for more details.
@@ -33,7 +32,7 @@ submitting a pull request through GitHub. Please see CONTRIBUTING.md for more de
 License
 -------
 
-Copyright 2017 The Android Open Source Project, Inc.
+Copyright 2018 The Android Open Source Project, Inc.
 
 Licensed to the Apache Software Foundation (ASF) under one or more contributor
 license agreements.  See the NOTICE file distributed with this work for
